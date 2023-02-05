@@ -2,10 +2,7 @@ import React from 'react'
 import {Row,Form, Input, Button, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 function SignInForm() {
-    const style = {
-        background: '#F5F5F6',
-        padding: '20px 20px 20px 30px',
-      };
+    
     const onFinish = (values) => {
       console.log('Success:', values);
     };

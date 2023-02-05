@@ -10,7 +10,7 @@ import {  Badge,
     Table,
     Typography, Image} from "antd";
 import { HomeFilled, ShoppingCartOutlined ,UserOutlined } from "@ant-design/icons";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getCart } from "../../API/index.js"
 import logo from "../../assets/logo.jpg"
